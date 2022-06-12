@@ -1,52 +1,16 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike Sharing Assignment
+> Investigating the Rental Bike Demand for the company BoomBikes.
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Business Goal
+You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+The model has p-value and VIF within acceptable range of < 0.05 and < 5 respectively
+**F(cnt) = 0.2353 * yr - 0.0969 * holiday + 0.6612 * temp + 0.0224 * spring + 0.0893 * summer + 0.1564 * winter - 0.2901 * light+precipitation - 0.0710 * misty_cloudy - 0.0415 * july + 0.0999 * sept**
+- Temperature contribute highly positive to count, every unit increase in temperature contributes to 0.66 increase in count
+- Holiday has negative contribution, meaning ppl must be using the bikes for offices or school
+- If its cloudy or light rain, it contributes negatively, meaning ppl will not prefer bikes
+- Year as positive contribution, meaning the coming years will have more count than previous
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@jawad360] - feel free to contact me!
